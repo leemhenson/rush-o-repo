@@ -1,0 +1,9 @@
+{
+  "extends": "../common/config/typescript/tsconfig.shared.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": true,
+    "outDir": ".emitted",
+    "rootDir": "."
+  }
+}

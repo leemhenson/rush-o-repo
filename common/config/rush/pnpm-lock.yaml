@@ -1,0 +1,55 @@
+dependencies:
+  '@rush-temp/library': 'file:projects/library.tgz'
+  '@rush-temp/partner-private-api': 'file:projects/partner-private-api.tgz'
+  '@rush-temp/partner-ui': 'file:projects/partner-ui.tgz'
+  fp-ts: 2.1.2
+  typescript: 3.7.2
+lockfileVersion: 5.1
+packages:
+  /fp-ts/2.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-oOZ/gc+lxTSfKRk6vnAAie2HQTWMH7yhaIM0+gW8fAi4JAiPT/OmEpW5ps3VuapPGNqnZ++4p56hv3PEd1qUFg==
+  /typescript/3.7.2:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
+  'file:projects/library.tgz':
+    dependencies:
+      fp-ts: 2.1.2
+      typescript: 3.7.2
+    dev: false
+    name: '@rush-temp/library'
+    resolution:
+      integrity: sha512-5+rXkbrHv7EjioF0M1GKNJqVgog+JC3esufc2dJDK1hUcS8lNSYtsRDKiyohinc3eT89Vo9GsHjUnGh51/AKkw==
+      tarball: 'file:projects/library.tgz'
+    version: 0.0.0
+  'file:projects/partner-private-api.tgz':
+    dependencies:
+      fp-ts: 2.1.2
+      typescript: 3.7.2
+    dev: false
+    name: '@rush-temp/partner-private-api'
+    resolution:
+      integrity: sha512-vyvvTl2bQ9pJ3GHbtJc46XRlzpD7m2Ajn3ZzEWcRnCviSLD4wP6Qc/+R6fLekNImwHpnz+zmlEtkQHAUVSNVNw==
+      tarball: 'file:projects/partner-private-api.tgz'
+    version: 0.0.0
+  'file:projects/partner-ui.tgz':
+    dependencies:
+      typescript: 3.7.2
+    dev: false
+    name: '@rush-temp/partner-ui'
+    resolution:
+      integrity: sha512-4FX1/EtfXwD82pOb3w3t5vmMrecc+CkrQ1KD10hxDoNleSSzcrYgzhGcW1Ww16LCw0Q/MSmRCkFoADT99TktXA==
+      tarball: 'file:projects/partner-ui.tgz'
+    version: 0.0.0
+registry: ''
+specifiers:
+  '@rush-temp/library': 'file:./projects/library.tgz'
+  '@rush-temp/partner-private-api': 'file:./projects/partner-private-api.tgz'
+  '@rush-temp/partner-ui': 'file:./projects/partner-ui.tgz'
+  fp-ts: 2.1.2
+  typescript: 3.7.2

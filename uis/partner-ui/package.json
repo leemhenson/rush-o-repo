@@ -1,0 +1,19 @@
+{
+  "name": "partner-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"*** build partner-ui ***\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fp-ts": "2.1.2",
+    "library": "*"
+  },
+  "devDependencies": {
+    "typescript": "3.7.2"
+  }
+}
